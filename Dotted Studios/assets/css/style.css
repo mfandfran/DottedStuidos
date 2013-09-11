@@ -1,0 +1,172 @@
+@font-face {
+	font-family: fairview;
+	src: url("../font/fairview.ttf");
+}
+
+@font-face {
+	font-family: abraham;
+	src: url("../font/abraham.ttf");
+}
+
+body {
+    background:url(../img/bg.jpg) repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px !important;
+}
+
+.logos {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+#m-logo {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-top: 60px;
+}
+
+p#quote {
+	font-family: abraham;
+	font-size: 60px;
+	color: #2ebdb7;
+	text-align:center;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+span {
+	color: #ff5b47;
+	
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 80px;
+	border-spacing: 20px;
+}
+
+td {
+	padding: 10px;
+}
+
+.about {
+	width: 100%;
+	height: 700px;
+	background-color: #2cbdb7;
+}
+
+.about img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;	
+	padding-top: 20px;
+}
+
+table.profiles td {
+	width: 300px;
+	height: 400px;
+	border: 5px solid #f8f8f8;
+	border-radius: 5px;
+	font-family: fairview;
+	font-size: 32px;
+	color: #f8f8f8;
+	text-align:center;
+	
+}
+
+.jtitle{
+	font-size: 23px;
+}
+
+.ptitle {
+  padding-top: 10px;
+	padding-bottom: 15px
+}
+
+.pmtitle {
+	font-size: 42px;
+	padding-top: 10px;
+}
+
+.contact {
+	width: 100%;
+	height: 750px;
+	background-color: #ff5b47;
+	vertical-align:baseline;
+} 
+
+.contact img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;	
+	padding-top: 20px;
+}
+
+table.cutable {
+	font-family: fairview; 
+	font-size: 32px;
+	color: #f8f8f8;
+	margin-left: 80px;
+}
+
+input[type=text] {
+	background-color: #c64333;
+	border: none;
+	width: 400px;
+	height: 40px;
+	color: #f8f8f8;
+	font-family: fairview;
+	font-size: 28px;
+	padding-left: 10px;
+}
+input[type=submit]{
+	background-color: #c64333;
+	border: none;
+	width: 410px;
+	height: 40px;
+	color: #f8f8f8;
+	font-family: fairview;
+	font-size: 32px;
+}
+textarea {
+	background-color: #c64333;
+	border: none;
+	width: 400px;
+	height: 200px;
+	padding-left: 10px;
+	font-family: fairview;
+	font-size: 24px;
+	color: #f8f8f8;
+	padding-left: 10px;
+}
+
+input[type=text]:focus {
+	outline: none !important;
+	border: 1px solid #f8f8f8;
+}
+
+textarea:focus {
+	outline: none !important;
+	border: 1px solid #f8f8f8;
+}
+
+input[type=submit]:hover {
+	background-color: #db4937;
+	
+}
+
+table.cutable {
+	display:inline;
+	float: left;
+}
